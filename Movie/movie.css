@@ -1,0 +1,415 @@
+.muvie1{
+    background: url(img/movies/fantastic_beasts_and_where_to_find_them.png) top;
+}
+.muvie2{
+    background: url(img/movies/ass_creed2.jpg) round;
+}
+.muvie3{
+    background: url(img/movies/nowyouseeme2.jpg) round;
+}
+.muvie4{
+    background: url(img/movies/tarzan.png) round;
+}
+.muvie5{
+    background: url(img/movies/doctorstrange1.png) bottom;
+}
+.muvie6{
+    background: url(img/movies/cap3.jpg) round;
+}
+.muvie7{
+    background: url(img/movies/alice2.jpg) round;
+}
+.muvie8{
+    background: url(img/movies/finding-dory-teaser2.jpg) round;
+}
+.muvie9{
+    background: url(img/movies/the-bfg-new-poster-social2.jpg) round;
+}
+.muvie10{
+    background: url(img/movies/independence_day2.jpg) round;
+}
+.muvie11{
+    background: url(img/movies/ice-age2.jpg) round;
+}
+.muvie12{
+    background: url(img/movies/flex_moana_header_ddaba7de.png) round;
+}
+
+.muvie__imput{
+    position: absolute;
+    visibility: hidden;
+}
+.muvie{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 35px;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.muvie:hover > .muvie__play{
+    visibility: inherit;
+}
+.muvie__play{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 118px;
+    width: 118px;
+    background-color: #3BB4E0;
+    border-radius: 50%;
+    transition: transform 0.5s;
+}
+.play > img{
+    padding-left: 15px;
+}
+.play:hover{
+    transform: scale(1.1);
+}
+.muvie__play > p{
+    color: white;
+    font-size: 28px;
+    padding: 22px 0 52px 0;
+}
+.view-butt, .wath-now{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.view-butt:hover, .wath-now:hover{
+    background-color: #0AAEE4;
+    border: 1px solid  #0AAEE4;
+}
+
+.muvie__info-wraper{
+    height: 160px;
+    width: 100%;
+    background-color: #fff;
+}
+.muvie__info-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 45px 20px 45px;
+}
+.muvie__title{
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    display: block;
+    max-width: 312px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.assessment{
+    border: 2px solid #0AAEE4;
+    border-radius: 5px;
+    color: #0AAEE4;
+    padding: 4px 7px;
+    margin-left: 6px;
+    font-size: 24px;
+}
+.muvie__info-wraper > ul{
+    display: flex;
+    padding: 0 45px;
+}
+
+
+.view-all{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: margin 0.5s;
+}
+
+.muvie__title2{
+    padding: 0;
+}
+
+.view_wraper{
+    padding: 30px 45px 80px;
+}
+.view__butts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cros{
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.cros:hover{
+    transform: scale(1.2);
+}
+
+
+
+.fav{   
+    font-size: 28px;
+}
+.fav:hover{
+    transform: scale(1.1);
+}
+.dots{
+    transition: 0.5s;
+}
+.dots:hover{
+    transform: scale(1.2);
+}
+
+
+.muvie__info-top2{
+    padding: 40px 0 15px;
+}
+.genre-ul{
+    display: flex;
+}
+.genre{
+    color: #0AAEE4; 
+    font-size: 22px;
+    margin: 0 3px;
+}
+.briefly{
+    font-size: 26px;
+    line-height: 40px;
+    padding: 30px 0 35px;
+    max-height: 280px;
+}
+.wath-now > a{
+    color: #fff;
+}
+
+
+
+
+/*muvie1*/
+#rad1_1:checked ~ .view-all1{
+    visibility: inherit;
+}
+#rad1_1:checked ~ .muvie__play1{
+    visibility: hidden;
+}
+#rad1_1:checked ~ .muvie__info1{
+    visibility: hidden;
+}
+#rad1_2:checked ~ .view-all1{
+    visibility: hidden;
+}
+/*muvie2*/
+#rad2_1:checked ~ .view-all2{
+    visibility: inherit;
+}
+#rad2_1:checked ~ .muvie__play2{
+    visibility: hidden;
+}
+#rad2_1:checked ~ .muvie__info2{
+    visibility: hidden;
+}
+#rad2_2:checked ~ .view-all2{
+    visibility: hidden;
+}
+/*muvie3*/
+#rad3_1:checked ~ .view-all3{
+    visibility: inherit;
+}
+#rad3_1:checked ~ .muvie__play3{
+    visibility: hidden;
+}
+#rad3_1:checked ~ .muvie__info3{
+    visibility: hidden;
+}
+#rad3_2:checked ~ .view-all3{
+    visibility: hidden;
+}
+/*muvie4*/
+#rad4_1:checked ~ .view-all4{
+    visibility: inherit;
+}
+#rad4_1:checked ~ .muvie__play4{
+    visibility: hidden;
+}
+#rad4_1:checked ~ .muvie__info4{
+    visibility: hidden;
+}
+#rad4_2:checked ~ .view-all4{
+    visibility: hidden;
+}
+/*muvie5*/
+#rad5_1:checked ~ .view-all5{
+    visibility: inherit;
+}
+#rad5_1:checked ~ .muvie__play5{
+    visibility: hidden;
+}
+#rad5_1:checked ~ .muvie__info5{
+    visibility: hidden;
+}
+#rad5_2:checked ~ .view-all5{
+    visibility: hidden;
+}
+/*muvie6*/
+#rad6_1:checked ~ .view-all6{
+    visibility: inherit;
+}
+#rad6_1:checked ~ .muvie__play6{
+    visibility: hidden;
+}
+#rad6_1:checked ~ .muvie__info6{
+    visibility: hidden;
+}
+#rad6_2:checked ~ .view-all6{
+    visibility: hidden;
+}
+/*muvie7*/
+#rad7_1:checked ~ .view-all7{
+    visibility: inherit;
+}
+#rad7_1:checked ~ .muvie__play7{
+    visibility: hidden;
+}
+#rad7_1:checked ~ .muvie__info7{
+    visibility: hidden;
+}
+#rad7_2:checked ~ .view-all7{
+    visibility: hidden;
+}
+/*muvie8*/
+#rad8_1:checked ~ .view-all8{
+    visibility: inherit;
+}
+#rad8_1:checked ~ .muvie__play8{
+    visibility: hidden;
+}
+#rad8_1:checked ~ .muvie__info8{
+    visibility: hidden;
+}
+#rad8_2:checked ~ .view-all8{
+    visibility: hidden;
+}
+/*muvie9*/
+#rad9_1:checked ~ .view-all9{
+    visibility: inherit;
+}
+#rad9_1:checked ~ .muvie__play9{
+    visibility: hidden;
+}
+#rad9_1:checked ~ .muvie__info9{
+    visibility: hidden;
+}
+#rad9_2:checked ~ .view-all9{
+    visibility: hidden;
+}
+/*muvie10*/
+#rad10_1:checked ~ .view-all10{
+    visibility: inherit;
+}
+#rad10_1:checked ~ .muvie__play10{
+    visibility: hidden;
+}
+#rad10_1:checked ~ .muvie__info10{
+    visibility: hidden;
+}
+#rad10_2:checked ~ .view-all10{
+    visibility: hidden;
+}
+/*muvie11*/
+#rad11_1:checked ~ .view-all11{
+    visibility: inherit;
+}
+#rad11_1:checked ~ .muvie__play11{
+    visibility: hidden;
+}
+#rad11_1:checked ~ .muvie__info11{
+    visibility: hidden;
+}
+#rad11_2:checked ~ .view-all11{
+    visibility: hidden;
+}
+/*muvie12*/
+#rad12_1:checked ~ .view-all12{
+    visibility: inherit;
+}
+#rad12_1:checked ~ .muvie__play12{
+    visibility: hidden;
+}
+#rad12_1:checked ~ .muvie__info12{
+    visibility: hidden;
+}
+#rad12_2:checked ~ .view-all12{
+    visibility: hidden;
+}
+/*muvie13*/
+#rad13_1:checked ~ .view-all13{
+    visibility: inherit;
+}
+#rad13_1:checked ~ .muvie__play13{
+    visibility: hidden;
+}
+#rad13_1:checked ~ .muvie__info13{
+    visibility: hidden;
+}
+#rad13_2:checked ~ .view-all13{
+    visibility: hidden;
+}
+/*muvie14*/
+#rad14_1:checked ~ .view-all14{
+    visibility: inherit;
+}
+#rad14_1:checked ~ .muvie__play14{
+    visibility: hidden;
+}
+#rad14_1:checked ~ .muvie__info14{
+    visibility: hidden;
+}
+#rad14_2:checked ~ .view-all14{
+    visibility: hidden;
+}
+/*muvie15*/
+#rad15_1:checked ~ .view-all15{
+    visibility: inherit;
+}
+#rad15_1:checked ~ .muvie__play15{
+    visibility: hidden;
+}
+#rad15_1:checked ~ .muvie__info15{
+    visibility: hidden;
+}
+#rad15_2:checked ~ .view-all15{
+    visibility: hidden;
+}
+/*muvie16*/
+#rad16_1:checked ~ .view-all16{
+    visibility: inherit;
+}
+#rad16_1:checked ~ .muvie__play16{
+    visibility: hidden;
+}
+#rad16_1:checked ~ .muvie__info16{
+    visibility: hidden;
+}
+#rad16_2:checked ~ .view-all16{
+    visibility: hidden;
+}

@@ -1,0 +1,27 @@
+@media(max-width:1440px){
+    .nav-item{
+        font-size: 18px;
+    }
+    .nav-sub-items a{
+        color: #fff;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .Gen{
+        width: 70px;
+        justify-content: space-between;
+    }
+}
+@media(max-width:850px){
+    .memu__all{
+        display: none;
+    }
+    .memu850{
+        display: block;
+    }
+    .menu > .conteiner{
+        display: flex;
+        padding-top: 30px;
+    }
+}
+

@@ -1,0 +1,173 @@
+.slider{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: #fff;  
+    font-size: 24px;
+}
+
+.bars{
+    position: absolute;
+    top: 30%;
+    right: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.bar{
+    height: 28px;
+    width: 7px;
+    margin: 9px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: 0.7;
+    border-radius: 10px;
+    transition:all 0.4s ease;
+}
+.bar:hover{
+    opacity: 1;
+    transform: scale(1.1);   
+    background-color: #0AAEE4;
+}
+
+.slider__input{
+    position: absolute;
+    display: none;
+}
+.slides{
+    height: 500%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.slide{
+    height: 1080px;
+    transition: all 0.6s ease;
+}
+.slide > .conteiner{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 53px;
+
+}
+.slider_info > h3{
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.description{
+    display: flex;
+    padding: 27px 0 35px 0;
+}
+.description > ul{
+    display: flex;
+}
+.description > ul > li{
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+.description > ul > li:hover{
+    transform: scale(1.1);
+}
+.description > ul > li > a{
+    color: #fff;
+}
+.line{
+    height: 24px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 20px 0 10px;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating > img{
+    display: block;
+    margin: 0 6px;
+}
+.assessment{
+    border: 2px solid #0AAEE4;
+    border-radius: 5px;
+    padding: 4px 7px;
+    margin-left: 6px;
+}
+.Watch_Now, .View_Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    height: 60px;
+    width: 200px;
+    transition: 0.5s;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.Watch_Now:hover, .View_Info:hover{
+    border: none;
+    background-color: #0AAEE4;
+}
+.View_Info{
+    margin: 0 35px;
+}
+.Favorites{
+    height: 60px;
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav{   
+    transition: transform 0.5s;
+}
+.fav:hover{
+    transform: scale(1.1);
+}
+.Favorites > a{
+    color: #fff;
+}
+.dots{
+    transition: 0.5s;
+}
+.dots:hover{
+    transform: scale(1.2);
+}
+.s1{
+    background: url(img/head/junglebook.png ) round;
+}
+.s2{
+    background: url(img/head/joker2.jpg ) round;
+}
+.s3{
+    background: url(img/head/koko2.jpg ) round;
+}
+.s4{
+    background: url(img/head/lalaland.jpg ) round;
+}
+.s5{
+    background: url(img/head/green_book.jpg ) round;
+}
+
+
+#r1:checked ~ .s1{
+    margin-top: 0;
+}
+#r2:checked ~ .s1{
+    margin-top: -1080px;
+}
+#r3:checked ~ .s1{
+    margin-top: -2160px;
+}
+#r4:checked ~ .s1{
+    margin-top: -3240px;
+}
+#r5:checked ~ .s1{
+    margin-top: -4320px;
+}

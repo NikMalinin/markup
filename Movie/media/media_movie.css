@@ -1,0 +1,96 @@
+@media(max-width:2120px){
+    .muvie{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .movies1, .movies2{
+        justify-content: space-around;
+    }
+}
+@media(max-width:1920px){
+    .muvie{
+        height: 500px;
+        width: 450px;
+    }
+    .view-butt, .wath-now{
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .muvie__play > p, .muvie__title, .muvie__title{
+        font-size: 22px;
+    }
+    .briefly{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .play{
+        height: 90px;
+        width: 90px;
+    }
+    .play > img{
+        height: 30px;
+        width: 30px; 
+        padding-left: 8px;
+    }
+}
+@media(max-width:1536px){
+    .muvie{
+        height: 400px;
+        width: 350px;
+    }
+    .view-butt, .wath-now{
+        height: 30px;
+        width: 90px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+    .muvie__play > p, .muvie__title, .muvie__title{
+        font-size: 16px;
+    }
+    .briefly{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .play{
+        height: 70px;
+        width: 70px;
+    }
+    .play > img{
+        height: 20px;
+        width: 20px; 
+        padding-left: 7px;
+    }
+    .muvie__play > p{
+        padding-bottom: 22px;
+    }
+    .view_wraper{
+        padding: 20px 35px 40px;
+    }
+    .subscribe__info{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:850px){
+    .muvie{
+        height: 350px;
+        width: 300px;
+    }
+    .briefly{
+        font-size: 14px;
+        line-height: 18px;
+        padding: 15px 0 15px;
+    }
+    .genre{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:480px){
+    .movies > .conteiner{
+        padding: 0;
+    }
+}
+

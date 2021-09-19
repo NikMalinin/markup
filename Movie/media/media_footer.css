@@ -1,0 +1,43 @@
+@media(max-width:1260px){
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about > li{
+        padding: 10px;
+    }
+    .foot__title > p{
+        line-height: 35px;
+    }
+}
+@media(max-width:850px){
+    footer > .conteiner{
+        flex-direction: column;
+    }
+    .about, .foot__title, .massagers{
+        width: 100%;
+    }
+    .about, .massagers{
+        justify-content: center;
+    }
+    .about{
+        flex-direction: row;
+    }
+    .about > li{
+        padding: 10px;
+    }
+    .foot__title > p{
+        line-height: 35px;
+    }
+    .foot__title > h3{
+        padding: 30px 0;
+    }
+    .massagers{
+        padding: 30px 0;
+    }
+}
+@media(max-width:500px){
+    .about{
+        flex-direction: column;
+    }
+}
