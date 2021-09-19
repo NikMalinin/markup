@@ -1,0 +1,40 @@
+@media (max-width:990px){
+    .foot__menu{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .foot__menu>a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media (max-width:735px){
+    header{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .all>.conteiner{
+        flex-direction: column;
+    }
+    main{
+        order: 1;
+        width: 100%;
+        padding:0;
+    }
+    .sidebar1, .sidebar2{
+        width: 100%;
+    }
+    .sidebar2{
+        order: 2;
+    }
+    .sidebar1{
+        order: 3;
+    }
+}
+@media (max-width:513px){
+    .foot__menu>a:hover{
+        margin: 30px 10px;
+    }
+}

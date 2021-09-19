@@ -1,0 +1,19 @@
+@media (max-width:682px){
+    header{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+}
+@media (max-width:525px){
+    .all>.conteiner{
+        flex-direction: column;
+    }
+    main, .sidebar{
+        width: 100%;
+    }
+    .sidebar{
+        padding-left: 0;
+    }
+}
