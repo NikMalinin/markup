@@ -1,0 +1,156 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+    font-family: "Times New Roman";
+}
+.wraper{
+    width: 100%;
+}
+.conteiner{
+    max-width: 1500px;  
+    margin: 0 auto; 
+}
+.head{
+    margin: 0 auto;   
+    background: url(img/beackground/beack-head.png); 
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
+.burger{
+    display: none;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+}
+ul > li{
+    margin: 0 15px 0 15px;
+    display: block;
+    height: 19px;  
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: 0.8s; 
+}
+ul > li:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+}
+li > a{
+    color: #000;
+}
+.ul1{
+    padding-right: 15px;
+}
+.ul2{
+    padding-left: 15px;
+}
+
+/*ABOUT*/
+.about__all{
+    display: flex;
+}
+.about__left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/about_us/about.png);
+    background-position: center;
+    height: 500px;
+}
+/*Одна на все*/
+.big-border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+    border: 10px solid #121212;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about__right{
+    width: 50%;
+    background-color: #F2EFE5;
+    text-align: center;
+    line-height: 22px;
+}
+.logo2{
+    padding: 91px 0 31px 0;
+}
+.sub-title{
+    font-size: 19px;
+    padding: 0 149px 32px 112px;
+}
+.info{
+    font-size: 16px;
+    padding: 0 127px 0 85px; 
+    font-weight: 600;
+    text-align: left;
+}
+
+/*BLOCK3*/
+.block__photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #CCC8B6;
+}
+/*BLOCK4*/
+.block4__info{
+    height: 350px; 
+    background: url(img/beackground/back4.png) no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f2efe5;
+    font-style: italic;
+}
+.block4__text{ 
+    max-width: 743px;     
+    height: 50px;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.block4__text > span{
+    font-size: 130px;
+}
+.name{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 100px -500px -100px 0;
+}
+
+
+
+

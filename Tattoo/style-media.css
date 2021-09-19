@@ -1,0 +1,127 @@
+@media (max-width:1600px){
+    .conteiner{
+        max-width: 1600px;
+    }
+    /*MAP*/
+    .map > .conteiner{
+        padding: 0 45px 0 45px;
+        background-color: #E7E5D0;
+    }
+}
+
+@media (max-width:1220px){
+    /*CONTACTS*/
+    .contacts__all{
+        padding: 100px 0 100px 0;
+    }
+    .contacts__info{
+        width: 100%;
+        padding: 0 90px 0 90px;
+        margin: 0 auto;
+    }
+    .contacts__all > form{
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:1200px){
+    .conteiner{
+        max-width: 1000px;
+    }
+    .logo2{
+        padding: 60px 0 45px 0;
+    }
+    .sub-title{
+        padding:0 25px 35px 25px;
+    }
+    .info{
+        padding: 0 45px 20px 45px;
+    }
+
+    /*TEAM*/
+    .team__width{
+        width: 500px;
+        }
+}
+
+@media (max-width:992px){
+    .conteiner{
+        max-width: 750px;
+    }
+    .burger{
+        display: block;
+    }
+    .top{
+        padding: 20px 0 20px 0;
+    }
+    .ul1 , .ul2{
+        display: none;
+    }
+    .head{
+        height: 100%;
+    }
+
+    /*ABOUT*/
+    .about__all{
+        flex-wrap: wrap;
+    }
+    .about__left{
+        width: 100%;
+        height: 370px;
+    }
+    .about__right{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .info{
+        text-align: center;
+    }
+    .sub-title, .info{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /*TWIT*/
+    .twit__info{
+        padding-left: 25px;
+    }
+}
+
+@media (max-width:750px){
+    .block4{
+        display: none;
+    }
+
+    /*TEAM*/
+    .team__name > h3{
+        padding-top: 50px;
+    }
+    .team_massage{
+        margin: 0 auto;
+    }
+
+    /*TWIT*/
+    .twit__info{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /*CONTACTS*/
+    .contacts__us_left, .contacts__us_right{
+        padding-bottom: 20px;
+        }
+    .contacts__text, .contacts__email, .contacts__textarea, .contacts__button, .team_massage{
+        max-width: 300px;
+    }
+    .contacts__info{
+        padding: 0 15px 0 15px;
+    }
+    .contacts__button:hover{
+        width: 305px;
+        height: 62px;
+        font-size: 23px;
+    }
+
+}
+
