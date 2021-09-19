@@ -1,0 +1,28 @@
+.special__photo{
+    position: relative;
+    max-width: 100%;
+}
+.special__hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+.special__hover:hover{
+    opacity: 1;
+}
+
+.watch > a > img{
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 74px;
+    text-align: center;
+}
+
+

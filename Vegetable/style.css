@@ -1,0 +1,300 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.wraper{
+    width: 100%;
+    font-family: Merriweather;
+    color: #3c3c3c;
+}
+.conteiner{
+    max-width: 1490px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 40px;
+    font-weight: 300;
+    color: #404040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    margin: 0 auto;
+    height: 1019px;
+    background: url(img/back/back1.jpg) round;
+    background-position: unset;
+}
+.top {
+    margin: 0 auto;
+    max-width: 1580px;
+    display: flex;
+    justify-content: flex-end;
+}
+.top__menu{
+    display: flex;     
+}
+.top__menu > li{
+    padding-top: 107px;
+}
+.top__menu > li > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    margin: 0 20px 0 20px;
+    font-family: Merriweather;
+    font-size: 18px;
+    color: #3c3c3c;
+    border: 1px solid rgba(60, 60, 60, 0);
+    transition: 0.3s;
+}
+.top__menu > li > a:hover{ 
+    border: 1px solid rgba(60, 60, 60, 1);
+    transform: scale(1.1);
+}
+.face{
+    padding-top: 315px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.header__title > h2{
+    max-width: 530px;
+    line-height: 55px;
+    padding-bottom: 41px;
+}
+
+.yellow{
+    background: url(img/back/back2.png) round;
+    height: 463px;
+}
+.yellow__all{
+    display: flex;
+    justify-content: space-between;
+}
+.yellow__content{
+    text-align: center;
+    max-width: 375px;
+}
+.yellow__content > h3{
+    max-height: 220px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 38px 0 30px 0;
+}
+.yellow__content > p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+}
+.bowl{
+    padding-top: 146px;
+}
+.kettle{
+    padding-top: 157px;
+}
+.cake{
+    padding-top: 149px;
+}
+
+.special__title{
+    padding-bottom: 57px;
+}
+.special__title > h2{
+    padding: 80px 0 23px 0;
+}
+.special__all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    padding-bottom: 104px;  
+}
+.specials{
+    display: flex;
+}
+.special__photo, .special__info{
+    max-width: 248px;
+    height: 248px;
+    text-align: center;
+}
+.special__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EBEBEB;
+}
+.special__info > h4{
+    padding-bottom: 14px;
+}
+.special__info > h4, .price{
+    font-size: 18px;
+    font-weight: 700;
+}
+.line{
+    width: 88px;
+    height: 1px;
+    background-color: #000;
+    margin: 0 auto;
+}
+.special__text{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 16px 0 16px 0;
+}
+
+.about{
+    background: url(img/back/back3.png) no-repeat;
+    background-position: right;
+    background-color: #EEEFEF;
+}
+.about__all{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+.about__us{
+    padding: 248px 0 169px 0;   
+}
+.about__title > img{
+    padding: 32px 0 58px 0;
+}
+.about__info{
+    max-width: 606px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 54px;
+    text-align: center;
+    padding-bottom: 56px;
+}
+.about__sign{
+    text-align: right;
+}
+
+.menu__title > h2{
+    padding: 129px 0 32px 0;
+}
+.menu__title > img{
+    padding-bottom: 52px;
+}
+
+footer{
+    height: 970px;
+    background: url(img/back/back4.jpg) round;
+}
+footer > .conteiner{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.contact{
+    max-width: 575px;
+    flex: 1;
+}
+.contact__title{
+    padding: 69px 0 62px 0;
+}
+.contact__info{
+    display: flex;
+    justify-content: space-between;
+}
+.veggie{
+    max-width: 193px;
+}
+.veggie > h3, .reservations > h3{
+    font-size: 18px;
+    line-height: 85px;
+}
+.veggie > p, .reservations > p{
+    line-height: 24px;
+}
+.contat__form{
+    font-size: 18px;
+    padding: 102px 0 41px 0;
+}
+.contact__first{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__text, .contact__email, .contact__textarea{
+    height: 30px;
+    font-size: 18px;
+    font-style: italic; 
+    background-color:rgba(255, 255, 255, 0); 
+    border-bottom: 1px solid #000;
+}
+.contact__text, .contact__email{
+    width: 254px;  
+    line-height: 85px;
+}
+.contact__textarea{
+    resize: none;
+    width: 570px;
+    margin: 71px 0 62px 0;  
+}
+.contact__button{
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #3c3c3c;
+    font-size: 18px;
+    margin: 0 auto;
+    transition: 0.4s;
+}
+.contact__button:hover{
+    transform: scale(1.2);
+}
+.massagers{
+    bottom: 0;
+}
+.massagers > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7px 0 7px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #3c3c3c;
+    transition: 0.3s;
+}
+.massagers > a:hover{
+    transform: scale(1.1);
+}
+.ass{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    bottom: 0;
+}
+.ass > p{
+    margin: 0 auto;
+    font-size: 18px;
+}
+.massagers{  
+    display: flex;
+}
+
+
+    

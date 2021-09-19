@@ -1,0 +1,79 @@
+.menu__all{
+    height: 730px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.starters, .main, .desserts, .drinks{
+    max-width: 1400px;
+    position: absolute;
+    margin-top: 132px;
+    display: none;
+}
+.in{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;   
+}
+.drinks > .drinks__in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column1{
+    padding-right: 220px;
+}
+@media (max-width:1340px){
+    /*menu*/
+    .menu__all{
+        height: 1350px;
+    }
+   .column1{
+        padding-right: 0;
+    }
+}
+
+#check-menu1, #check-menu2, #check-menu3, #check-menu4{
+    display: none;
+}
+.menu__lab{
+    display: block;  
+    height: 50px;
+    width: 180px; 
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 2;
+    text-align: center;
+    transition: 0.5s;
+    border: 1px solid rgba(60, 60, 60, 0);
+    line-height: 50px;
+    margin: 0 15px 0 15px;
+}
+.menu__lab:hover{
+    border: 1px solid rgba(60, 60, 60, 1);
+    transform: scale(1.1);
+}
+#check-menu1:checked ~ .starters{
+    display: block;
+}
+#check-menu2:checked ~ .main{
+    display: block;
+}
+#check-menu3:checked ~ .desserts{
+    display: block;
+}
+#check-menu4:checked ~ .drinks{
+    display: block;
+}
+
+.dish_name > p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.dish__info{
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: -0.26px;
+    padding-bottom: 42px;
+}
