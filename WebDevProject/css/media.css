@@ -1,0 +1,318 @@
+@media (max-width: 1400px) {
+    /*Cont*/
+    body .wrapper .cont  {
+      max-width: 1200px;
+    }
+
+    /*Blog*/
+    .blog .cont .blog__content{
+        margin-left: 10px;
+    }
+
+    .blog .cont .blog__content .blog__img{
+        max-width: 500px;
+        margin-right: 15px;
+    }
+
+    .blog .cont .blog__content .blog__img img{
+        width: 100%;
+    }
+
+    .blog .cont .blog__content .blog__post{
+        padding: 61px 80px 0 0;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    /*Cont*/
+    body .wrapper .cont  {
+      max-width: 1000px;
+    }
+
+    body .wrapper .cont .block__info {
+        margin-bottom: 70px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    /*Services*/
+    .services .cont .services__blocks{
+        justify-content: space-around;
+    }
+
+    .services .cont .services__blocks .services__block{
+        margin: 0 10px 30px 10px;
+    }
+
+    /*Works*/
+    .works .cont .works__tabs .tab-body{
+        justify-content: space-around;
+    }
+
+    .works .cont .works__tabs .tab-body .works__presentation{
+        margin: 0 10px 30px 10px;
+    }
+
+    /*Plan*/
+    .plan .cont .plan__prices .price{
+        margin-top: 30px;
+    }
+
+    /*Team*/
+    .team .cont .carousel{
+        height: 500px;
+    }
+
+    .team .cont .carousel-item .teammates .teammate .teammate-photo{
+        width: 230px;
+        height: 210px;
+    }
+
+    .team .cont .carousel-item .teammates .teammate .teammate-links{
+        width: 150px;
+    }
+
+    .team .cont .carousel-item .teammates .teammate .teammate-links a{
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    /*Blog*/
+    .blog .cont .blog__content{
+        margin-left: 10px;
+    }
+
+    .wrapper .blog .cont .blog__content .blog__img{
+        max-width: 450px;
+    }
+
+    .wrapper .blog .cont .blog__content .blog__post{
+        padding: 61px 27px 0 0;
+    }
+
+    /*Contact*/
+    .wrapper .contact .cont .contacts {
+        justify-content: space-around;
+        max-width: 700px;
+    }
+
+    .contact .cont .contacts .contact__block {
+        max-width: 180px;
+        margin: 0 15px;
+    }
+
+    .wrapper .contact .cont .contacts .contact__img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .wrapper .contact .cont .contacts .contact__img img {
+        width: 30px;
+    }
+
+    .wrapper .contact .cont .contacts .contact__info a {
+        font-size: 15px;
+    }
+
+    .wrapper .contact .cont form{
+        width: 700px;
+    }
+
+    .wrapper .contact .cont form input{
+        width: 300px;
+        height: 50px;
+    }
+
+    .wrapper .contact .cont form textarea{
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 937px) {
+    /*Blog*/
+    .wrapper .blog .cont .blog__content .blog__img{
+        order: 1;
+    }
+
+    .wrapper .blog .cont .blog__content .blog__post{
+        order: 2;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    /*Header*/
+    .cont .header__face h1 {
+        padding: 50px 10px 25px 10px;
+        text-align: center;
+    }
+
+    .cont .header__face h2 {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    /*About*/
+    .about .cont .about__blocks{
+        margin-top: 0;
+    }
+}
+
+
+@media (max-width: 760px) {
+    /*Works*/
+    .works .cont .works__tabs ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .works .cont .works__tabs ul .tab {
+        width: 150px;
+        margin: 30px 10px 0 10px;
+    }
+
+    /*Team*/
+    .team{
+        display: none;
+    }
+
+    /*Contact*/
+    .wrapper .contact .cont form{
+        width: 100%;
+        padding: 0 10px 0 10px;
+    }
+
+    .wrapper .contact .cont form .form__top{
+        margin-bottom: 0;
+    }
+
+    .wrapper .contact .cont form input{
+        width: 300px;
+        height: 50px;
+        margin-top: 35px;
+    }
+
+    .wrapper .contact .cont form textarea{
+        margin-top: 35px;
+    }
+
+    .wrapper .contact .cont form button{
+        margin-right: 10px;
+        margin-top: 35px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    /*Contact*/
+    .wrapper .contact .cont form .form__top{
+        display: block;
+    }
+
+    .wrapper .contact .cont form input{
+        width: 100%;
+    }
+
+    .wrapper .contact .cont form button{
+        position: unset;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 570px) {
+    /*Header*/
+    header .navbar{
+        padding: 0 20px;
+    }
+
+    .cont .header__face h1 {
+        font-size: 45px;
+    }
+
+    .cont .header__face .header__btns {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .cont .header__face .header__btns button {
+        margin: 15px 15px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    /*Header*/
+    .cont .header__face {
+        height: 570px;
+    }
+    .cont .header__face h1 {
+        font-size: 40px;
+        padding: 30px 10px 20px 10px;
+    }
+
+    .cont .header__face .header__btns {
+        margin: 20px 0 0 0;
+    }
+
+    /*Services*/
+    .services .cont .services__blocks .services__block{
+        width: 280px;
+    }
+
+    /*Works*/
+    .works .cont .works__tabs .tab-body .works__presentation {
+        width: 280px;
+        height: 280px;
+    }
+
+    .works .cont .works__btn {
+        margin-top: 50px;
+    }
+
+    /*Plan*/
+    .plan .cont .plan__prices .price{
+        width: 280px;
+    }
+}
+
+
+@media (max-width: 340px) {
+    /*Header*/
+    .cont .header__face {
+        height: 480px;
+    }
+    .cont .header__face h1 {
+        font-size: 33px;
+        padding: 25px 10px 15px 10px;
+    }
+
+    .cont .header__face h2 {
+        font-size: 20px;
+    }
+
+    .cont .header__face .header__btns {
+        margin: 15px 0 0 0;
+    }
+
+    .cont .header__face .header__btns button {
+        margin: 10px 10px;
+    }
+
+    /*Blog*/
+    .blog .cont .blog__content .blog__post .additional-info .blog__date{
+        padding-left: 18px;
+    }
+    .blog .cont .blog__content .blog__post .additional-info .blog__dev{
+        margin-left: 7px;
+        padding-left: 18px;
+    }
+}
+  
